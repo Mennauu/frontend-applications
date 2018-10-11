@@ -8,7 +8,7 @@ class App extends Component {
     return (
       <div className="d-flex align-items-stretch w-100">
         <Sidebar />
-        <div className="bg-light w-100">
+        <div className="bg-light w-100 p-5">
           <Main />
         </div>
       </div>

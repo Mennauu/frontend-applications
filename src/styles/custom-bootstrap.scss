@@ -36,6 +36,7 @@ $success:       $green !default;
 $info:          $indigo;
 $warning:       $yellow !default;
 $danger:        $red !default;
+$light:         $gray-200;
 
 // Links
 //
@@ -53,3 +54,11 @@ $headings-font-family:             'Nunito Sans', sans-serif;
 $headings-font-weight:              700 !default;
 
 $display1-weight:                   $headings-font-weight;
+
+$headings-margin-bottom:           1.5rem;
+
+// Grid columns
+//
+// Set the number of columns and specify the width of the gutters.
+
+$grid-gutter-width:           30px;
