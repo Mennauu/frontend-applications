@@ -1,0 +1,55 @@
+// Variables
+//
+// Variables should follow the `$component-state-property-size` formula for
+// consistent naming. Ex: $nav-link-disabled-color and $modal-content-box-shadow-xs.
+
+
+//
+// Color system
+//
+
+$white:    #fff !default;
+$gray-100: #f8f9fa !default;
+$gray-200: #e9ecef !default;
+$gray-300: #dee2e6 !default;
+$gray-400: #ced4da !default;
+$gray-500: #adb5bd !default;
+$gray-600: #6c757d !default;
+$gray-700: #495057 !default;
+$gray-800: #343a40 !default;
+$gray-900: #212529 !default;
+$black:    #000 !default;
+
+$blue:    #007bff !default;
+$indigo:  #103a54;
+$purple:  #6f42c1 !default;
+$pink:    #e83e8c !default;
+$red:     #dc3545 !default;
+$orange:  #fd7e14 !default;
+$yellow:  #ffc107 !default;
+$green:   #28a745 !default;
+$teal:    #f1f2f4;
+$cyan:    #17a2b8 !default;
+
+$primary:       $blue !default;
+$success:       $green !default;
+$info:          $indigo;
+$warning:       $yellow !default;
+$danger:        $red !default;
+
+// Links
+//
+// Style anchor elements.
+
+$link-color:                $white;
+$link-hover-decoration:     none;
+
+// Cards
+$card-border-width:                 0;
+
+// Fonts
+$font-family-sans-serif:           'Nunito Sans', sans-serif;
+$headings-font-family:             'Nunito Sans', sans-serif;
+$headings-font-weight:              700 !default;
+
+$display1-weight:                   $headings-font-weight;
