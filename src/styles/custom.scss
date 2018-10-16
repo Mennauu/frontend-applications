@@ -5,7 +5,7 @@
 
 html {font-size: 16px}
 
-.vh-100 {height: 100vh;}
+.vh-100 {min-height: 100vh;}
 .vw-100 {width: 100vw;}
 
 .sidebar {min-width: 6.25em;}
@@ -23,3 +23,16 @@ html {font-size: 16px}
 i.fa {font-size: 1.8em;}
 
 .card button {color: $black;}
+
+select:valid {
+  border-color:$green;
+}
+
+.bg-block {
+  background-color: $gray-200;
+  border-radius: $border-radius;
+  padding: 0.3em;
+  font-size: 1.5em;
+}
+
+.table th { border-top: 0; }

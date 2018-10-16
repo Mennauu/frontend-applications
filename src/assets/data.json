@@ -1,0 +1,141 @@
+[
+  {
+    "id" : "One",
+    "category" : "Algemeen",
+    "questions" : [
+      {
+        "label" : "Geslacht",
+        "options" : [ "Man", "Vrouw" ],
+        "value" : 0.5
+      },
+      {
+        "label" : "Leeftijd van het kind",
+        "options" : [
+          "0 tot 4 jaar",
+          "4 tot 8 jaar",
+          "8 tot 12 jaar",
+          "12 tot 16 jaar",
+          "16 tot 18 jaar"
+        ],
+        "value" : 0.5
+      },
+      {
+        "label" : "Leeftijd moeder bij geboorte",
+        "options" : [
+          "Jonger dan 20 jaar",
+          "20 tot 25 jaar",
+          "25 tot 30 jaar",
+          "30 tot 35 jaar",
+          "35 tot 40 jaar",
+          "40 jaar en ouder"
+        ],
+        "value" : 0.5
+      },
+      {
+        "label" : "Leeftijd vader bij geboorte",
+        "options" : [
+          "Jonger dan 25 jaar",
+          "25 tot 30 jaar",
+          "30 tot 35 jaar",
+          "35 tot 40 jaar",
+          "40 jaar en ouder"
+        ],
+        "value" : 0.5
+      },
+      {
+        "label" : "Leeftijdverschil tussen ouders",
+        "options" : [
+          "Minder dan 5 jaar",
+          "Meer dan 5 jaar"
+        ],
+        "value" : 0.5
+      },
+      {
+        "label" : "Herkomst ouders",
+        "options" : [
+          "Beide ouders Nederland",
+          "Beide ouders niet Nederland",
+          "Een van de ouders Nederland en de andere niet Nederlands"
+        ],
+        "value" : 0.5
+      },
+      {
+        "label" : "Hulptraject",
+        "options" : [
+          "Geen jeugdhulp zonder verblijf gehad",
+          "Jeugdhulp zonder verblijf gehad"
+        ],
+        "value" : 0.5
+      }
+    ]
+  },
+  {
+    "id" : "Two",
+    "category" : "Werk & Opleiding",
+    "questions" : [
+      {
+        "label" : "Soort onderwijs van het kind",
+        "options" : [
+          "Regulier onderwijs",
+          "Niet-regulier onderwijs",
+          "Onbekend"
+        ],
+        "value" : 0.5
+      },
+      {
+        "label" : "Huidig onderwijsniveau van het kind",
+        "options" : [
+          "Basisonderwijs",
+          "Vmbo b/k, mbo 1 of mbo 2",
+          "Vmbo g/t, mbo 3 of mbo 4",
+          "Havo onderbouw, Havo bovenbouw of HBO Bachelor",
+          "VWO of WO Bachelor",
+          "Onbekend"
+        ],
+        "value" : 0.5
+      },
+      {
+        "label" : "Verandering in het voortgezet onderwijsniveau",
+        "options" : [
+          "Opschalen of gelijk blijvend",
+          "Afschalen",
+          "Onbekend"
+        ],
+        "value" : 0.5
+      },
+      {
+        "label" : "Voortijdig schoolverlater",
+        "options" : [
+          "Door in onderwijs",
+          "Onbekend",
+          "Niet van toepassing",
+          "Uit onderwijs met startkwalificatie",
+          "Voortijdig schoolverlater"
+        ],
+        "value" : 0.5
+      },
+      {
+        "label" : "Hoogst behaalde onderwijsniveau vader",
+        "options" : [
+          "Vmbo b/k, mbo 1 of mbo 2",
+          "Vmbo g/t, mbo 3 of mbo 4",
+          "Havo onderbouw, Havo bovenbouw of HBO Bachelor of HBO Master",
+          "VWO, WO Bachelor of WO Master",
+          "Onbekend"
+        ],
+        "value" : 0.5
+      },
+      {
+        "label" : "Hoogst behaalde onderwijsniveau moeder",
+        "options" : [
+          "Vmbo b/k, mbo 1 of mbo 2",
+          "Vmbo g/t, mbo 3 of mbo 4",
+          "Havo onderbouw, Havo bovenbouw of HBO Bachelor of HBO Master",
+          "VWO, WO Bachelor of WO Master",
+          "Onbekend"
+        ],
+        "value" : 0.5
+      }
+    ]
+  }
+]
