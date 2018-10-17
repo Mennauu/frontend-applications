@@ -81,6 +81,37 @@ legend {
   i.fa {font-size: 1.25em;}
 }
 
+.custom-form input {
+  border: 0;
+  color: $gray-600;
+  font-size: 4rem;
+  background-color: $gray-100;
+  font-weight: bold;
+
+  &::placeholder {
+    color: $gray-400;
+  }
+  &:focus {
+    outline: none;
+    background-color: $gray-400;
+  }
+  &:focus::placeholder {
+    color: $gray-500;
+  }
+}
+
+#saved {
+  background-color: $green;
+  color: $white;
+  opacity: 0;
+  transition: opacity 0.2s ease-in;
+
+  &:after {
+    font-family: FontAwesome;
+    content: "\f00c";
+    margin-left: 8px;
+  }
+}
 
 /* Added classes */
 .vh-100 {min-height: 100vh;}
