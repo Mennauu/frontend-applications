@@ -5,10 +5,13 @@
 
 html {font-size: 16px}
 
-.vh-100 {min-height: 100vh;}
-.vw-100 {width: 100vw;}
+.logo {width: 4.5em;}
 
-.sidebar {min-width: 6.25em;}
+.sidebar {
+  min-width: 6.25em;
+
+  i.fa {font-size: 1.8em;}
+}
 
 .active {
   background-color: $gray-200;
@@ -20,12 +23,41 @@ html {font-size: 16px}
   }
 }
 
-i.fa {font-size: 1.8em;}
+.card {
+  border-radius: 0;
+  margin-bottom: 0.5em;
 
-.card button {color: $black;}
+  button {color: $black;}
+}
 
-select:valid {
-  border-color:$green;
+select:valid {border-color:$green;}
+
+fieldset:valid legend {
+  background-color: #d4edd6;
+
+  &:hover {
+    background-color: #bed5c0;
+  }
+
+  &:after {
+    font-family: FontAwesome;
+    content: "\f00c";
+    float: right;
+  }
+}
+
+fieldset:invalid legend {
+  background-color: #ffccbc;
+
+  &:hover {
+    background-color: #e5b7a9;
+  }
+
+  &:after {
+    font-family: FontAwesome;
+    content: "\f040";
+    float: right;
+  }
 }
 
 .bg-block {
@@ -35,4 +67,21 @@ select:valid {
   font-size: 1.5em;
 }
 
-.table th { border-top: 0; }
+.table th {border-top: 0;}
+
+legend {
+  font-size: 1.1em;
+  font-weight: $font-weight-bold;
+  cursor: pointer;
+  padding: 1.25rem;
+  background-color: rgba($black, 0.03);
+  border-bottom: 0 solid rgba($black, 0.125);
+  margin-bottom: 0;
+
+  i.fa {font-size: 1.25em;}
+}
+
+
+/* Added classes */
+.vh-100 {min-height: 100vh;}
+.vw-100 {width: 100vw;}

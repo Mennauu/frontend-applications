@@ -5,7 +5,7 @@ class Home extends Component {
     return (
       <div>
         <div className="container-fluid">
-          <h1>Homepage</h1>
+          <h1>Kind Veilig Thuis</h1>
           <div className="row">
             <div className="col-6">
               <div className="card shadow-sm">
@@ -27,15 +27,6 @@ class Home extends Component {
               </div>
             </div>
             <div className="col-6 mt-3">
-              <div className="card shadow-sm">
-                <div className="card-body text-justify">
-                  <h5 className="card-title">Contact</h5>
-                  <p className="card-text">Voor meer informatie over het gebruik van de tool en de totstandkoming hiervan, kunt u contact opnemen met:</p>
-                  <p className="card-text">Arjan de Jager, programma manager Garage2020 Amsterdam.</p>
-                </div>
-              </div>
-            </div>
-            <div className="col-6 mt-4">
               <div className="card shadow-sm">
                 <div className="card-body text-justify">
                   <h5 className="card-title">Contact</h5>

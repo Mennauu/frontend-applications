@@ -1,140 +1,305 @@
 [
   {
-    "id" : "One",
+    "id" : "1",
     "category" : "Algemeen",
     "questions" : [
       {
         "label" : "Geslacht",
-        "options" : [ "Man", "Vrouw" ],
-        "value" : 0.5
+        "options" : [
+          {
+            "option" : "Man",
+            "value" : -0.12610868
+          },
+          {
+            "option" : "Vrouw",
+            "value" : 0
+          }
+        ]
       },
       {
         "label" : "Leeftijd van het kind",
         "options" : [
-          "0 tot 4 jaar",
-          "4 tot 8 jaar",
-          "8 tot 12 jaar",
-          "12 tot 16 jaar",
-          "16 tot 18 jaar"
-        ],
-        "value" : 0.5
+          {
+            "option" : "0 tot 4 jaar",
+            "value" : 1.06108193
+          },
+          {
+            "option" : "4 tot 8 jaar",
+            "value" : -0.12610868
+          },
+          {
+            "option" : "8 tot 12 jaar",
+            "value" : -0.12610868
+          },
+          {
+            "option" : "12 tot 16 jaar",
+            "value" : -0.12610868
+          },
+          {
+            "option" : "16 tot 18 jaar",
+            "value" : 1.06108193
+          }
+        ]
       },
       {
         "label" : "Leeftijd moeder bij geboorte",
         "options" : [
-          "Jonger dan 20 jaar",
-          "20 tot 25 jaar",
-          "25 tot 30 jaar",
-          "30 tot 35 jaar",
-          "35 tot 40 jaar",
-          "40 jaar en ouder"
-        ],
-        "value" : 0.5
+          {
+            "option" : "Jonger dan 20 jaar",
+            "value" : 0.45149781
+          },
+          {
+            "option" : "20 tot 25 jaar",
+            "value" : 0.10851786
+          },
+          {
+            "option" : "25 tot 30 jaar",
+            "value" : -0.08840876
+          },
+          {
+            "option" : "30 tot 35 jaar",
+            "value" : -0.04840876
+          },
+          {
+            "option" : "35 tot 40 jaar",
+            "value" : 0.23987545
+          },
+          {
+            "option" : "40 jaar en ouder",
+            "value" : -0.11153052
+          }
+        ]
       },
       {
         "label" : "Leeftijd vader bij geboorte",
         "options" : [
-          "Jonger dan 25 jaar",
-          "25 tot 30 jaar",
-          "30 tot 35 jaar",
-          "35 tot 40 jaar",
-          "40 jaar en ouder"
-        ],
-        "value" : 0.5
+          {
+            "option" : "Jonger dan 25 jaar",
+            "value" : -0.00587023
+          },
+          {
+            "option" : "25 tot 30 jaar",
+            "value" : 0.031069
+          },
+          {
+            "option" : "30 tot 35 jaar",
+            "value" : 0
+          },
+          {
+            "option" : "35 tot 40 jaar",
+            "value" : -0.2162358
+          },
+          {
+            "option" : "40 jaar en ouder",
+            "value" : -0.32645414
+          }
+        ]
       },
       {
         "label" : "Leeftijdverschil tussen ouders",
         "options" : [
-          "Minder dan 5 jaar",
-          "Meer dan 5 jaar"
-        ],
-        "value" : 0.5
+          {
+            "option" : "Minder dan 5 jaar",
+            "value" : 0
+          },
+          {
+            "option" : "Meer dan 5 jaar",
+            "value" : 0.28580939
+          }
+        ]
       },
       {
         "label" : "Herkomst ouders",
         "options" : [
-          "Beide ouders Nederland",
-          "Beide ouders niet Nederland",
-          "Een van de ouders Nederland en de andere niet Nederlands"
-        ],
-        "value" : 0.5
+          {
+            "option" : "Beide ouders Nederlands",
+            "value" : 0
+          },
+          {
+            "option" : "Beide ouders niet Nederlands",
+            "value" : 0.16972268
+          },
+          {
+            "option" : "Een van de ouders Nederlands en de andere niet Nederlands",
+            "value" : -0.08942976
+          }
+        ]
       },
       {
         "label" : "Hulptraject",
         "options" : [
-          "Geen jeugdhulp zonder verblijf gehad",
-          "Jeugdhulp zonder verblijf gehad"
-        ],
-        "value" : 0.5
+          {
+            "option" : "Geen jeugdhulp zonder verblijf gehad",
+            "value" : 0
+          },
+          {
+            "option" : "Jeugdhulp zonder verblijf gehad",
+            "value" : 1.52773741
+          }
+        ]
       }
     ]
   },
   {
-    "id" : "Two",
+    "id" : "2",
     "category" : "Werk & Opleiding",
     "questions" : [
       {
         "label" : "Soort onderwijs van het kind",
         "options" : [
-          "Regulier onderwijs",
-          "Niet-regulier onderwijs",
-          "Onbekend"
-        ],
-        "value" : 0.5
+          {
+            "option" : "Regulier onderwijs",
+            "value" : 0
+          },
+          {
+            "option" : "Niet-regulier onderwijs",
+            "value" : -0.33030829
+          },
+          {
+            "option" : "Onbekend",
+            "value" : -0.76956641
+          }
+        ]
       },
       {
         "label" : "Huidig onderwijsniveau van het kind",
         "options" : [
-          "Basisonderwijs",
-          "Vmbo b/k, mbo 1 of mbo 2",
-          "Vmbo g/t, mbo 3 of mbo 4",
-          "Havo onderbouw, Havo bovenbouw of HBO Bachelor",
-          "VWO of WO Bachelor",
-          "Onbekend"
-        ],
-        "value" : 0.5
+          {
+            "option" : "Basisonderwijs",
+            "value" : 0.25231544
+          },
+          {
+            "option" : "Vmbo b/k, mbo 1 of mbo 2",
+            "value" : 0.87841913
+          },
+          {
+            "option" : "Vmbo g/t, mbo 3 of mbo 4",
+            "value" : 0.56881862
+          },
+          {
+            "option" : "Havo onderbouw, Havo bovenbouw of HBO Bachelor",
+            "value" : -0.8356626
+          },
+          {
+            "option" : "VWO of WO Bachelor",
+            "value" : -0.8356626
+          },
+          {
+            "option" : "Onbekend",
+            "value" : 0
+          }
+        ]
       },
       {
         "label" : "Verandering in het voortgezet onderwijsniveau",
         "options" : [
-          "Opschalen of gelijk blijvend",
-          "Afschalen",
-          "Onbekend"
-        ],
-        "value" : 0.5
+          {
+            "option" : "Opschalen of gelijk blijvend",
+            "value" : 0
+          },
+          {
+            "option" : "Afschalen",
+            "value" : 0.58732282
+          },
+          {
+            "option" : "Onbekend",
+            "value" : -1.11681655
+          }
+        ]
       },
       {
         "label" : "Voortijdig schoolverlater",
         "options" : [
-          "Door in onderwijs",
-          "Onbekend",
-          "Niet van toepassing",
-          "Uit onderwijs met startkwalificatie",
-          "Voortijdig schoolverlater"
-        ],
-        "value" : 0.5
+          {
+            "option" : "Door in onderwijs",
+            "value" : 0
+          },
+          {
+            "option" : "Onbekend",
+            "value" : 0.80563824
+          },
+          {
+            "option" : "Niet van toepassing",
+            "value" : 0.387358461
+          },
+          {
+            "option" : "Uit onderwijs met startkwalificatie",
+            "value" : -13.64192657
+          },
+          {
+            "option" : "Voortijdig schoolverlater",
+            "value" : 0.34683899
+          }
+        ]
       },
       {
         "label" : "Hoogst behaalde onderwijsniveau vader",
         "options" : [
-          "Vmbo b/k, mbo 1 of mbo 2",
-          "Vmbo g/t, mbo 3 of mbo 4",
-          "Havo onderbouw, Havo bovenbouw of HBO Bachelor of HBO Master",
-          "VWO, WO Bachelor of WO Master",
-          "Onbekend"
-        ],
-        "value" : 0.5
+          {
+            "option" : "Vmbo b/k, mbo 1 of mbo 2",
+            "value" : -0.21629522
+          },
+          {
+            "option" : "Vmbo g/t, mbo 3 of mbo 4",
+            "value" : 0.67119088
+          },
+          {
+            "option" : "Havo onderbouw, Havo bovenbouw of HBO Bachelor of HBO Master",
+            "value" : -12.08994875
+          },
+          {
+            "option" : "VWO, WO Bachelor of WO Master",
+            "value" : -12.08994875
+          },
+          {
+            "option" : "Onbekend",
+            "value" : 0.88463779
+          }
+        ]
       },
       {
         "label" : "Hoogst behaalde onderwijsniveau moeder",
         "options" : [
-          "Vmbo b/k, mbo 1 of mbo 2",
-          "Vmbo g/t, mbo 3 of mbo 4",
-          "Havo onderbouw, Havo bovenbouw of HBO Bachelor of HBO Master",
-          "VWO, WO Bachelor of WO Master",
-          "Onbekend"
-        ],
-        "value" : 0.5
+          {
+            "option" : "Vmbo b/k, mbo 1 of mbo 2",
+            "value" : 0.15935901
+          },
+          {
+            "option" : "Vmbo g/t, mbo 3 of mbo 4",
+            "value" : 0.03334141
+          },
+          {
+            "option" : "Havo onderbouw, Havo bovenbouw of HBO Bachelor of HBO Master",
+            "value" : -13.03161926
+          },
+          {
+            "option" : "VWO, WO Bachelor of WO Master",
+            "value" : -13.03161926
+          },
+          {
+            "option" : "Onbekend",
+            "value" : 0.03655114
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id" : "3",
+    "category" : "Werk & Opleiding",
+    "questions" : [
+      {
+        "label" : "Soort onderwijs van het kind",
+        "options" : [
+          {
+            "option" : "Regulier onderwijs",
+            "value" : 0
+          },
+          {
+            "option" : "Niet-regulier onderwijs",
+            "value" : -0.33030829
+          }
+        ]
       }
     ]
   }
