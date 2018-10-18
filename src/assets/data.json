@@ -286,7 +286,7 @@
   },
   {
     "id" : "3",
-    "category" : "Werk & Opleiding",
+    "category" : "Test",
     "questions" : [
       {
         "label" : "Soort onderwijs van het kind",
@@ -294,6 +294,25 @@
           {
             "option" : "Regulier onderwijs",
             "value" : 0
+          },
+          {
+            "option" : "Niet-regulier onderwijs",
+            "value" : -0.33030829
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id" : "4",
+    "category" : "Nog een test",
+    "questions" : [
+      {
+        "label" : "Soort onderwijs van het kind",
+        "options" : [
+          {
+            "option" : "Regulier onderwijs",
+            "value" : 0.18
           },
           {
             "option" : "Niet-regulier onderwijs",
