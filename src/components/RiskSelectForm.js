@@ -14,8 +14,8 @@ class RiskSelectForm extends Component {
   }
 
   handleChange = (event) => {
-    let values = [...this.state.values, Number(event.target.value)]
-    this.props.getValues(values)
+    this.setState({values: [...this.state.values, Number(event.target.value)]})
+    this.props.getValues(this.state.values)
   }
 
   render() {
