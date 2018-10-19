@@ -2,13 +2,6 @@ import React, { Component } from 'react';
 import data from '../assets/data.json';
 
 class RiskAllResults extends Component {
-  constructor(props) {
-    super(props);
-    this.state = {
-      values: [],
-    }
-  }
-
   render() {
     // Using reduce to iterate through the value array, adding the
     // current element value to the sum of the previous element values.
