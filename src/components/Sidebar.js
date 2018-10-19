@@ -10,10 +10,13 @@ class Sidebar extends Component {
         <nav>
           <ul className="nav flex-column">
             <li className="nav-item">
-              <NavLink exact className="nav-link ml-2 rounded-left" to="/"><i className="fa fa-home" aria-hidden="true"></i><br />Home</NavLink>
+              <NavLink exact className="nav-link ml-2 rounded-left" to="/"><i className="fa fa-info" aria-hidden="true"></i><br />Info</NavLink>
             </li>
             <li className="nav-item">
-              <NavLink exact className="nav-link ml-2 rounded-left" to="/risk"><i className="fa fa-dashboard" aria-hidden="true"></i>Risico</NavLink>
+              <NavLink exact className="nav-link ml-2 rounded-left" to="/risk"><i className="fa fa-dashboard" aria-hidden="true"></i><br />Risico</NavLink>
+            </li>
+            <li className="nav-item">
+              <NavLink exact className="nav-link ml-2 rounded-left" to="/files"><i className="fa fa-files-o" aria-hidden="true"></i>Dossiers</NavLink>
             </li>
           </ul>
         </nav>

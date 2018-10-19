@@ -286,7 +286,7 @@
   },
   {
     "id" : "3",
-    "category" : "Test",
+    "category" : "Huisvesting",
     "questions" : [
       {
         "label" : "Soort onderwijs van het kind",
@@ -305,17 +305,74 @@
   },
   {
     "id" : "4",
-    "category" : "Nog een test",
+    "category" : "Huiselijke relaties",
     "questions" : [
       {
-        "label" : "Soort onderwijs van het kind",
+        "label" : "Ouders gescheiden",
         "options" : [
           {
-            "option" : "Regulier onderwijs",
+            "option" : "Ja",
             "value" : 0.18
           },
           {
-            "option" : "Niet-regulier onderwijs",
+            "option" : "Nee",
+            "value" : -0.33030829
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id" : "5",
+    "category" : "Geestelijke gezondheid",
+    "questions" : [
+      {
+        "label" : "Als slachtoffer bekend bij slachtofferhulp",
+        "options" : [
+          {
+            "option" : "Ja",
+            "value" : 0.18
+          },
+          {
+            "option" : "Nee",
+            "value" : -0.33030829
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id" : "6",
+    "category" : "Maatschappelijke participatie",
+    "questions" : [
+      {
+        "label" : "Als slachtoffer bekend bij slachtofferhulp",
+        "options" : [
+          {
+            "option" : "Ja",
+            "value" : 0.18
+          },
+          {
+            "option" : "Nee",
+            "value" : -0.33030829
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id" : "7",
+    "category" : "Justitie",
+    "questions" : [
+      {
+        "label" : "Als slachtoffer bekend bij slachtofferhulp",
+        "options" : [
+          {
+            "option" : "Ja",
+            "value" : 0.18
+          },
+          {
+            "option" : "Nee",
             "value" : -0.33030829
           }
         ]

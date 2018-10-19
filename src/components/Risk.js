@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
-import data from '../assets/data.json';
 import RiskInputForm from './RiskInputForm';
 import RiskSelectForm from './RiskSelectForm';
+import RiskAllResults from './RiskAllResults';
 import RiskResultsTable from './RiskResultsTable';
 
 
@@ -18,15 +18,6 @@ class Risk extends Component {
   }
 
   render() {
-    //----Retrieve amount of questions----//
-    let questionsAmount = 0;
-
-    for (let i = 0; i < data.length; i++) {
-      for (let j = 0; j < data[i].questions.length; j++) {
-        questionsAmount++;
-      }
-    }
-
     return (
       <div>
         <div className="container-fluid">
@@ -46,6 +37,13 @@ class Risk extends Component {
               <RiskSelectForm getValues={this.getValues}/>
             </div>
             <div className="col-8">
+              <div className="card shadow-sm rounded mb-4 bg-info text-white text-center">
+                <div className="card-body">
+                  <h2 className="card-title mt-4">Totaalresultaat</h2>
+                  {/* RiskAllResults component */}
+                  <RiskAllResults taxation={this.state.values}/>
+                </div>
+              </div>
               <div className="card shadow-sm rounded">
                 <div className="card-body">
                   <h2 className="card-title">Individuele resultaten</h2>

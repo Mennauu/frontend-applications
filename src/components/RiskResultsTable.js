@@ -25,29 +25,29 @@ class RiskResultsTable extends Component {
     var selectCollection = document.getElementsByTagName('select');
 
     for (var i = 0; i < selectCollection.length; i++) {
-      if (selectCollection[i].value != "") {
+      if (selectCollection[i].value !== "") {
         questionsFilledIn++;
       }
     }
 
     return (
-      <table className="table table-striped">
+      <table className="table table-striped text-center">
         <thead>
           <tr>
-            <th scope="col">Categorie</th>
+            <th scope="col" className="text-left">Categorie</th>
             <th scope="col">Risicotaxatie</th>
             <th scope="col">Reden</th>
-            <th scope="col" className="text-right">Vragen ingevuld</th>
+            <th scope="col" className="text-right">Vragen</th>
           </tr>
         </thead>
         <tbody>
         {/* Map through data */}
         {data.map(data =>
           <tr key={data.id}>
-            <th scope="row" className="font-weight-normal">{data.category}</th>
+            <th scope="row" className="font-weight-normal text-left">{data.category}</th>
             <td>{taxationValue} %</td>
             <td>...</td>
-            <td className="text-right"><span className="bg-block">{questionsFilledIn}</span> / <span className="bg-block">{data.questions.length}</span></td>
+            <td className="text-right"><span>{questionsFilledIn}</span> / <span>{data.questions.length}</span></td>
           </tr>
         )}
         </tbody>
