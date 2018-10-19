@@ -29,9 +29,9 @@ class RiskAllResults extends Component {
 
     //----Retrieve amount of questions filled in----//
     let questionsFilledIn = 0;
-    var selectCollection = document.getElementsByTagName('select');
+    let selectCollection = document.getElementsByTagName('select');
 
-    for (var i = 0; i < selectCollection.length; i++) {
+    for (let i = 0; i < selectCollection.length; i++) {
       if (selectCollection[i].value !== "") {
         questionsFilledIn++;
       }
